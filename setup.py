@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
  
 setup (
-  name = "kivy-utils",
+  name = "kutils",
   version = "0.1",
   description="Various kivy utilities",
   author="Douglas Linder",

@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Each item is expanded to [Existing, Content, PATH_TO_TEST] and invoked.
 # eg. [['nosetests', '--verbose'], ['python3.3']]
-test_runners = [['Python2.7'], ['Python3.3']] #, ['pypy']]
+test_runners = [['Python2.7']]
 
 # Special runner for windows, because windows is 'special'
 test_runners_win32 = [[sys.executable]]
